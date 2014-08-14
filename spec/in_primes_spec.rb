@@ -16,4 +16,6 @@ describe "Descompose in primes" do
   it "should return an array" do
     expect(Descompose.in_primes(4).class).to be(Array)
   end
+
+
 end
