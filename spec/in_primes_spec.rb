@@ -18,6 +18,6 @@ describe "Descompose in primes" do
   end
 
   it "should return the factors of a number" do
-    expect(Descompose.in_primes(4)).to be([2,2])
+    expect(Descompose.in_primes(4)).to eq([2,2])
   end
 end

@@ -3,12 +3,10 @@ module Descompose
   def self.in_primes(number)
     output = []
     return [number] if is_prime?(number)
-    for i in 2...(number-1) do
-      if number % i == 0
-        puts i
-        output << i  
+    for i in 2..(number - 1) do
+      while number % i == 0
+        output << i
         number /= i
-        i -= 1
       end
     end
     output
