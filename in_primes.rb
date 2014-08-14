@@ -1,7 +1,8 @@
 module Descompose
   def self.in_primes(number)
     return [1] if number == 1
-    [number] if is_prime?(number)
+    return [number] if is_prime?(number)
+    []
   end
 
   def self.is_prime?(number)
