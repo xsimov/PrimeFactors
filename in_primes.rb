@@ -5,7 +5,7 @@ module Descompose
   end
 
   def self.is_prime?(number)
-    return true if number == 2
+
     for i in 2..(number-1) do
       if number % i == 0
         return false
