@@ -12,4 +12,8 @@ describe "Descompose in primes" do
   it "should not return a non prime number" do 
     expect(Descompose.in_primes(4)).not_to eq([4])   
   end
+
+  it "should return an array" do
+    expect(Descompose.in_primes(4).class).to be(Array)
+  end
 end
