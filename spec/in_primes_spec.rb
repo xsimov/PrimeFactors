@@ -17,5 +17,7 @@ describe "Descompose in primes" do
     expect(Descompose.in_primes(4).class).to be(Array)
   end
 
-
+  it "should return the factors of a number" do
+    expect(Descompose.in_primes(4)).to be([2,2])
+  end
 end
