@@ -1,5 +1,5 @@
 module Descompose
   def self.in_primes(number)
-    [1]
+    [number]
   end
 end
